@@ -1,0 +1,93 @@
+<?php
+
+return [
+    'data_rows'  => [
+        'author'           => 'ავტორი',
+        'avatar'           => 'ავატარი',
+        'body'             => 'შიგთავსი',
+        'category'         => 'კატეგორია',
+        'created_at'       => 'შექმნის თარიღი',
+        'display_name'     => 'გამოსაჩენი სახელი',
+        'email'            => 'ელ. ფოსტა',
+        'excerpt'          => 'ნაწყვეტი',
+        'featured'         => 'გამორჩეული',
+        'id'               => 'იდენტ.',
+        'meta_description' => 'Meta აღწერა',
+        'meta_keywords'    => 'Meta გასაღებები',
+        'name'             => 'სახელი',
+        'order'            => 'წყობა',
+        'page_image'       => 'გვერდის ფოტო',
+        'parent'           => 'მშობელი',
+        'password'         => 'პაროლი',
+        'post_image'       => 'სტატიის ფოტო',
+        'remember_token'   => 'დამახსოვრებული ჰეში',
+        'role'             => 'როლი',
+        'seo_title'        => 'SEO სათაური',
+        'slug'             => 'სლაგი',
+        'status'           => 'სტატუსი',
+        'title'            => 'სათაური',
+        'updated_at'       => 'განახლების თარიღი',
+    ],
+    'data_types' => [
+        'category' => [
+            'singular' => 'კატეგორია',
+            'plural'   => 'კატეგორიები',
+        ],
+        'menu'     => [
+            'singular' => 'მენიუ',
+            'plural'   => 'მენიუები',
+        ],
+        'page'     => [
+            'singular' => 'გვერდი',
+            'plural'   => 'გვერდები',
+        ],
+        'post'     => [
+            'singular' => 'სტატია',
+            'plural'   => 'სტატიები',
+        ],
+        'role'     => [
+            'singular' => 'როლი',
+            'plural'   => 'როლები',
+        ],
+        'user'     => [
+            'singular' => 'მომხმარებელი',
+            'plural'   => 'მომხმარებლები',
+        ],
+    ],
+    'menu_items' => [
+        'bread'        => 'მბ ვიზუალიზაცია',
+        'categories'   => 'კატეგორიები',
+        'compass'      => 'გზამკვლევი',
+        'dashboard'    => 'მიმოხილვა',
+        'database'     => 'მონაცემთა ბაზა',
+        'media'        => 'მედია',
+        'menu_builder' => 'მენიუს შემქმნელი',
+        'pages'        => 'გვერდები',
+        'posts'        => 'სტატიები',
+        'roles'        => 'როლები',
+        'settings'     => 'პარამეტრები',
+        'tools'        => 'ხელსაწყოები',
+        'users'        => 'მომხმარებლები',
+    ],
+    'roles'      => [
+        'admin' => 'ადმინისტრატორი',
+        'user'  => 'მომხმარებელი',
+    ],
+    'settings'   => [
+        'admin' => [
+            'background_image'           => 'მართვის პანელის ფონის ფოტო',
+            'description'                => 'მართვის პანელის აღწერა',
+            'description_value'          => '',
+            'google_analytics_client_id' => 'Google Analytics Client ID (გამოიყენება მიმოხილვაში)',
+            'icon_image'                 => 'მართვის პანელის ხატულა',
+            'loader'                     => 'მართვის პანელის ლოადერი',
+            'title'                      => 'მართვის პანელის სახელწოდება',
+        ],
+        'site'  => [
+            'description'                  => 'საიტის აღწერა',
+            'google_analytics_tracking_id' => 'Google Analytics Tracking ID',
+            'logo'                         => 'საიტის ლოგო',
+            'title'                        => 'საიტის სათაური',
+        ],
+    ],
+];
