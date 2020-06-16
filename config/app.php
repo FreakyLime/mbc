@@ -84,7 +84,8 @@ return [
 
     'available_locales' => [
         'ka',
-        'en'
+        'en',
+        'ru'
     ],
 
     /*
